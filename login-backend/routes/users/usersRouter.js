@@ -2,7 +2,7 @@ var express = require("express");
 var router = express.Router();
 
 // Import functions from userController
-var {} = require("./controller/userController");
+var { signUp, login } = require("./controller/userController");
 
 // Imports functions from validator
 var {
